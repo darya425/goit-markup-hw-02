@@ -3,7 +3,7 @@
   --title-text-color: #212121;
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
-  --accent-bg-color: #e5e5e5;
+  --accent-bg-color: #f5f4fa;
 }
 
 body {
@@ -114,6 +114,15 @@ body {
 }
 
 /* Works */
+/* Team */
+.team {
+  background: var(--accent-bg-color);
+}
+
+.team-item {
+  background-color: var(--primary-white-color);
+}
+
 .team-subtitle {
   color: var(--title-text-color);
 
@@ -148,5 +157,40 @@ body {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
+}
+
+/* Portfolio */
+.btn {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  background: var(--accent-bg-color);
+}
+
+.btn:hover,
+.btn:focus {
+  color: var(--primary-white-color);
+  background: var(--accent-color);
+}
+
+.galery-title {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.galery-desc {
+  color: var(--primary-text-color);
+
+  font-size: 16px;
+  line-height: 1.87;
   letter-spacing: 0.03em;
 }
