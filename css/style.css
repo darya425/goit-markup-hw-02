@@ -7,7 +7,7 @@
 }
 
 body {
-  background-color: var(--primary-white-color);
+  background: var(--primary-white-color);
   color: var(--primary-text-color);
 
   font-family: Roboto, sans-serif;
@@ -119,8 +119,8 @@ body {
   background: var(--accent-bg-color);
 }
 
-.team-item {
-  background-color: var(--primary-white-color);
+.team-items .team-item {
+  background: var(--primary-white-color);
 }
 
 .team-subtitle {
