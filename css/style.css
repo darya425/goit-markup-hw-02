@@ -91,3 +91,62 @@ body {
   letter-spacing: 0.06em;
   background: var(--accent-color);
 }
+
+.title {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Method */
+.method-subtitle {
+  color: var(--title-text-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+/* Works */
+.team-subtitle {
+  color: var(--title-text-color);
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+/* Footer */
+.footer {
+  background: #2f303a;
+}
+
+.footer .logo {
+  color: #ffffff;
+}
+
+.address {
+  color: var(--primary-white-color);
+
+  font-weight: normal;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+.address .link {
+  color: rgba(255, 255, 255, 0.6);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+}
