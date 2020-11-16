@@ -4,6 +4,8 @@
   --accent-color: #2196f3;
   --primary-white-color: #ffffff;
   --accent-bg-color: #f5f4fa;
+  --color-black: #000000;
+  --general-bg: #2f303a;
 }
 
 body {
@@ -26,16 +28,16 @@ body {
 
 /* Site-nav */
 .logo {
-  color: #000000;
+  color: var(--color-black);
 
   font-family: 'Raleway', sans-serif;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   letter-spacing: 0.03em;
 }
 
 .logo-span {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .site-nav .link {
@@ -47,12 +49,11 @@ body {
   letter-spacing: 0.02em;
 }
 
-.site-nav .link.current {
-  color: var(--accent-color);
-}
-
+.site-nav .link.current,
 .site-nav .link:hover,
-.site-nav .link:focus {
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
   color: var(--accent-color);
 }
 
@@ -66,17 +67,12 @@ body {
   letter-spacing: 0.02em;
 }
 
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: var(--accent-color);
-}
-
 /* Hero */
 .hero {
-  background: #2f303a;
+  background: var(--general-bg);
 }
 .hero-title {
-  color: #ffffff;
+  color: var(--primary-white-color);
 
   font-weight: 900;
   font-size: 44px;
@@ -89,7 +85,7 @@ body {
 .hero .link {
   color: var(--primary-white-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.06em;
@@ -99,7 +95,7 @@ body {
 .title {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -110,7 +106,7 @@ body {
 .method-subtitle {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -137,24 +133,24 @@ body {
 }
 
 .team-desc {
-  font-weight: normal;
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
 }
 
 /* Footer */
 .footer {
-  background: #2f303a;
+  background: var(--general-bg);
 }
 
 .footer .logo {
-  color: #ffffff;
+  color: var(--primary-white-color);
 }
 
 .address {
   color: var(--primary-white-color);
 
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
@@ -192,7 +188,7 @@ body {
 .galery-title {
   color: var(--title-text-color);
 
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
